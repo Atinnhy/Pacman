@@ -80,6 +80,32 @@ int main(void)
         playerPosition.x += (playerSpeed * deltaTime) * x;
         playerPosition.y += (playerSpeed * deltaTime) * y;
             
+        // Atualizar a posição do personagem quando cruzar a tela
+        // Posição X
+        if (playerPosition.x < 0)
+        {
+            playerPosition.x = GetScreenWidth();
+        };
+
+        if (playerPosition.x > GetScreenWidth())
+        {
+            playerPosition.x = 0;
+        };
+        // Posição Y
+        if (playerPosition.y < 0)
+        {
+            playerPosition.y = GetScreenHeight();
+
+        };
+
+        if (playerPosition.y > GetScreenHeight())
+        {
+            playerPosition.y = 0;
+        };
+
+        // Colisão com objetos
+        
+
         // Draw
         //----------------------------------------------------------------------------------
         BeginDrawing();

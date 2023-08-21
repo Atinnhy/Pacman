@@ -1,2 +1,4 @@
 ﻿  Main.cpp
+C:\CPP\Pacman\Pacman-Projeto\Main.cpp(87,46): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\CPP\Pacman\Pacman-Projeto\Main.cpp(97,47): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   Pacman-Projeto.vcxproj -> C:\CPP\Pacman\Pacman-Projeto\x64\Debug\Pacman-Projeto.exe
